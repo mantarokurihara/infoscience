@@ -1,5 +1,7 @@
 # This is the journal for Computer Science
 
+*1.30.2020*
+
 1. What did we do?
 
 Today, we looked at the Computational Thinking, which consists of Deconstructing, Pattern Recognition, Abstraction and Algorithm Design.
@@ -12,3 +14,17 @@ I learned that it was surprisingly difficult to give a clear and algorithmic set
 3. What question(s) do I have?
 
 How does computational thinking really apply when we start programming?
+
+*2.11.2020*
+
+1. What did we do?
+
+Today, we created our own dice in Processing. We then created a "loaded" or "biased" dice by changing the probability for one of the values, and tried to guess which value was biased for eachother.
+
+2. What did you learn?
+
+I learned how strokes and drawing tools worked in Processing. (e.g strokeWeight, colors) I also learned how to create random numbers and probability codes using (n).
+
+3. What question(s) do I have?
+
+What's the best method when trying to find out the biased value?
