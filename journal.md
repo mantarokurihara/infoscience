@@ -44,30 +44,30 @@ I learned that it's very important to NRY (not repeat yourself) to simplify your
 A line appeared inside my bargraph, why does that appear?
 
 # code
-#variables
-one_counter=0
-two_counter=0
-three_counter=0
-four_counter=0
-five_counter=0
-six_counter=0
+    #variables
+    one_counter=0
+    two_counter=0
+    three_counter=0
+    four_counter=0
+    five_counter=0
+    six_counter=0
 
-def setup():
-    size(600,600)
-    background(255)
+    def setup():
+        size(600,600)
+        background(255)
     
-def draw():
-    #white background
-    x=0
-    delay(500)
-    mouseClicked()
-    barGraph()
+    def draw():
+        #white background
+        x=0
+        delay(500)
+        mouseClicked()
+        barGraph()
     
-def barGraph():
-    fill(0)
-    textSize(20);
-    for x in range(6):
-        text(x+1,50+50*x,580)
+    def barGraph():
+        fill(0)
+        textSize(20);
+        for x in range(6):
+            text(x+1,50+50*x,580)
     
     stroke(255,0,0)
     rect(50, 550 - one_counter, 12, one_counter)
@@ -82,14 +82,14 @@ def barGraph():
     stroke(0,0,255)
     rect(300, 550 - six_counter, 12, six_counter)
     
-def mouseClicked():
-    global one_counter, two_counter, three_counter, four_counter, five_counter, six_counter
-    background(255)
-    stroke(0)
-    strokeWeight(10)
-    fill(255)
-    rect(100,100, 400, 400, 10)
-    stroke(255,0,0)
+    def mouseClicked():
+        global one_counter, two_counter, three_counter, four_counter, five_counter, six_counter
+        background(255)
+        stroke(0)
+        strokeWeight(10)
+        fill(255)
+        rect(100,100, 400, 400, 10)
+        stroke(255,0,0)
     
     n = random(0,6)
     if 0<=n<1:
