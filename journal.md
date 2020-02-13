@@ -43,7 +43,8 @@ I learned that it's very important to NRY (not repeat yourself) to simplify your
 
 A line appeared inside my bargraph, why does that appear?
 
-# variables
+# code
+#variables
 one_counter=0
 two_counter=0
 three_counter=0
@@ -56,7 +57,7 @@ def setup():
     background(255)
     
 def draw():
-    # White background
+    #white background
     x=0
     delay(500)
     mouseClicked()
