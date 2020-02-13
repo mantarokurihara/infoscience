@@ -43,7 +43,6 @@ def mouseClicked():
     rect(100,100, 400, 400, 10)
     stroke(255,0,0)
     strokeWeight(10)
-    
     n = random(0,3.1)
     if 0<=n<0.6:
         circle(300,300, 50)
