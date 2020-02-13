@@ -1,4 +1,4 @@
-# This is the journal for Computer Science
+# this is the journal for computer science
 
 *1.30.2020*
 
