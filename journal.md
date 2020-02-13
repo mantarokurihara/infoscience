@@ -29,7 +29,6 @@ I learned how strokes and drawing tools worked in Processing. (e.g strokeWeight,
 
 What's the best method when trying to find out the biased value?
 
-
 def setup():
     size(600,600)
     
