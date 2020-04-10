@@ -43,7 +43,6 @@ I learned that it's very important to NRY (not repeat yourself) to simplify your
 
 A line appeared inside my bargraph, why does that appear?
 
-# code
     #variables
     one_counter=0
     two_counter=0
@@ -131,3 +130,35 @@ A line appeared inside my bargraph, why does that appear?
         circle(400,400, 50)
         six_counter= six_counter + 1
         print("Number of times six has been rolled:",six_counter)
+        
+*4.8.20*
+
+1. What did we do?
+
+I worked on the two tasks, 
+x = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
+y = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
+
+def setup():
+    size(500, 500)
+    
+def draw():
+    global x, y
+    background(255)
+    strokeWeight(5)
+    
+    for i in range(10):
+        circle(x[i], y[i], 40)
+        x[i] = x[i] + random(-10, 10)
+        y[i] = y[i] + random(-10, 10)
+        
+        if x[i] < 0:
+            x[i] = 0
+        if x[i] > 500:
+            x[i] = 500
+        if y[i] < 0:
+            y[i] = 0
+        if y[i] > 500:
+            y[i] = 500
+        
+    delay(100)
